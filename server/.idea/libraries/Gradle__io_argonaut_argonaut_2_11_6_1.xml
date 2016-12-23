@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.argonaut:argonaut_2.11:6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.argonaut/argonaut_2.11/6.1/2603f8a13852181b26cbda4686ddc445a57db04c/argonaut_2.11-6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.argonaut/argonaut_2.11/6.1/5478d44cbe26b42fddba0be1cc35dd266afc5e17/argonaut_2.11-6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

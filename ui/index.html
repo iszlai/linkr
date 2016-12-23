@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="Linkr">
+    <meta name="author" content="leheli">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v2.0.1/dist/mini-default.min.css">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <button>Home</button>
+        <a href="#" class="button">News</a>
+        <span>|</span>
+        <button>About</button>
+        <button>Contact</button>
+    </header>
+
+    <main>
+        <div id="addNew">
+            <input type="url"> </input>
+            <button class="tertiary"> + </button>
+            <div v-for="todo in todos" class="row">
+                <div class="card">
+                    <div class="section">
+                        <h3>{{todo.text}}</h3>
+                        <a href="http://google.com">here</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="https://unpkg.com/vue@2.1.6/dist/vue.js"></script>
+        <script src="js/scripts.js"></script>
+    </main>
+    <footer>
+        <p>&copy; 2001-2016 Web Corporation | <a href="#">About</a> | <a href="#">Terms of use</a></p>
+    </footer>
+</body>
+
+</html>

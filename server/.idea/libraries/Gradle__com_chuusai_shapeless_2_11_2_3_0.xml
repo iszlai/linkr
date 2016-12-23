@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.chuusai:shapeless_2.11:2.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.chuusai/shapeless_2.11/2.3.0/ef9daf5cc2802f32ad0e4eb06480805fb0abcdbb/shapeless_2.11-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.chuusai/shapeless_2.11/2.3.0/1c6bedb9c6fb303bcef10df51b14ff363c13e38e/shapeless_2.11-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

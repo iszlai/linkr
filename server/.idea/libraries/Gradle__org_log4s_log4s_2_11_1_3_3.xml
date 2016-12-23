@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.log4s:log4s_2.11:1.3.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.log4s/log4s_2.11/1.3.3/45fe3431d66eeb61145816f010c980b07377dbef/log4s_2.11-1.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.log4s/log4s_2.11/1.3.3/d39319a84e70c8c1b355f8581bd69b76f2e1c6a6/log4s_2.11-1.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

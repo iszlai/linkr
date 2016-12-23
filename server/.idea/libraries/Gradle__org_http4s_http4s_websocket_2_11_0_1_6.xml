@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.http4s:http4s-websocket_2.11:0.1.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-websocket_2.11/0.1.6/a39b7bb1c98e7b2794a38cbb56adb8de7b5b21ef/http4s-websocket_2.11-0.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/http4s-websocket_2.11/0.1.6/c1a6ca9ac5a5f90dd3034856822fee384d027578/http4s-websocket_2.11-0.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

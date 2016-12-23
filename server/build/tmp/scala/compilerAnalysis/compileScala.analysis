@@ -1,0 +1,287 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\WORK\linkr\server\build\classes\main
+compile options:
+2 items
+0 -> -deprecation
+1 -> -unchecked
+javac options:
+8 items
+0 -> -source
+1 -> 1.8
+2 -> -target
+3 -> 1.8
+4 -> -d
+5 -> C:\WORK\linkr\server\build\classes\main
+6 -> -g
+7 -> -XDuseUnsharedTable=true
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+12 items
+C:\WORK\linkr\server\src\main\scala\Library.scala -> C:\WORK\linkr\server\build\classes\main\Library.class
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\WORK\linkr\server\build\classes\main\LinkrService$$anonfun$1.class
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\WORK\linkr\server\build\classes\main\LinkrService$.class
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\WORK\linkr\server\build\classes\main\LinkrService.class
+C:\WORK\linkr\server\src\main\scala\Main.scala -> C:\WORK\linkr\server\build\classes\main\Main$.class
+C:\WORK\linkr\server\src\main\scala\Main.scala -> C:\WORK\linkr\server\build\classes\main\Main.class
+C:\WORK\linkr\server\src\main\scala\Model.scala -> C:\WORK\linkr\server\build\classes\main\Person$.class
+C:\WORK\linkr\server\src\main\scala\Model.scala -> C:\WORK\linkr\server\build\classes\main\Person.class
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> C:\WORK\linkr\server\build\classes\main\Serialization$$anonfun$PersonCodecJson$1.class
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> C:\WORK\linkr\server\build\classes\main\Serialization$$anonfun$PersonCodecJson$2.class
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> C:\WORK\linkr\server\build\classes\main\Serialization$.class
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> C:\WORK\linkr\server\build\classes\main\Serialization.class
+binary dependencies:
+20 items
+C:\WORK\linkr\server\src\main\scala\Library.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\WORK\linkr\server\src\main\scala\Library.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.8\ddd5a8bced249bedd86fb4578a39b9fb71480573\scala-library-2.11.8.jar
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\io.argonaut\argonaut_2.11\6.2-RC2\ea3815b484531b2bfcde4ea154f7f7ad69a28151\argonaut_2.11-6.2-RC2.jar
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-argonaut_2.11\0.15.0a\1e4607b6999faa3c0953293fd3221b30d555863b\http4s-argonaut_2.11-0.15.0a.jar
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-core_2.11\0.15.0a\3788936d8cd77c7e338b20f84127b139e7d7d3c1\http4s-core_2.11-0.15.0a.jar
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-dsl_2.11\0.15.0a\4479ad97a8127eac83fea2a8eae6397251861b27\http4s-dsl_2.11-0.15.0a.jar
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.8\ddd5a8bced249bedd86fb4578a39b9fb71480573\scala-library-2.11.8.jar
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scalaz\scalaz-concurrent_2.11\7.2.7\abaea3aa04f11301f63099d96cf47f91ec229ed4\scalaz-concurrent_2.11-7.2.7.jar
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scalaz\scalaz-core_2.11\7.2.7\ebf85118d0bf4ce18acebf1d8475ee7deb7f19f1\scalaz-core_2.11-7.2.7.jar
+C:\WORK\linkr\server\src\main\scala\Main.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\WORK\linkr\server\src\main\scala\Main.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-blaze-server_2.11\0.15.0a\386dd19bebfcd33614fd4eedbc5207f00dc7ba1b\http4s-blaze-server_2.11-0.15.0a.jar
+C:\WORK\linkr\server\src\main\scala\Main.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-server_2.11\0.15.0a\4a963f223a7b51f24b9ceec43cddab7bedf3cb41\http4s-server_2.11-0.15.0a.jar
+C:\WORK\linkr\server\src\main\scala\Main.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.8\ddd5a8bced249bedd86fb4578a39b9fb71480573\scala-library-2.11.8.jar
+C:\WORK\linkr\server\src\main\scala\Main.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scalaz\scalaz-concurrent_2.11\7.2.7\abaea3aa04f11301f63099d96cf47f91ec229ed4\scalaz-concurrent_2.11-7.2.7.jar
+C:\WORK\linkr\server\src\main\scala\Model.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\WORK\linkr\server\src\main\scala\Model.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.8\ddd5a8bced249bedd86fb4578a39b9fb71480573\scala-library-2.11.8.jar
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\io.argonaut\argonaut_2.11\6.2-RC2\ea3815b484531b2bfcde4ea154f7f7ad69a28151\argonaut_2.11-6.2-RC2.jar
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.8\ddd5a8bced249bedd86fb4578a39b9fb71480573\scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+4 items
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\WORK\linkr\server\src\main\scala\Model.scala
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> C:\WORK\linkr\server\src\main\scala\Serialization.scala
+C:\WORK\linkr\server\src\main\scala\Main.scala -> C:\WORK\linkr\server\src\main\scala\LinkrService.scala
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> C:\WORK\linkr\server\src\main\scala\Model.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+12 items
+C:\WORK\linkr\server\src\main\scala\Library.scala -> Library
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> LinkrService
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> LinkrService$
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> LinkrService$$anonfun$1
+C:\WORK\linkr\server\src\main\scala\Main.scala -> Main
+C:\WORK\linkr\server\src\main\scala\Main.scala -> Main$
+C:\WORK\linkr\server\src\main\scala\Model.scala -> Person
+C:\WORK\linkr\server\src\main\scala\Model.scala -> Person$
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> Serialization
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> Serialization$
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> Serialization$$anonfun$PersonCodecJson$1
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> Serialization$$anonfun$PersonCodecJson$2
+used names:
+105 items
+C:\WORK\linkr\server\src\main\scala\Library.scala -> <init>
+C:\WORK\linkr\server\src\main\scala\Library.scala -> AnyRef
+C:\WORK\linkr\server\src\main\scala\Library.scala -> Boolean
+C:\WORK\linkr\server\src\main\scala\Library.scala -> Library
+C:\WORK\linkr\server\src\main\scala\Library.scala -> scala
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> ->
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> <init>
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> ==
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> A1
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> AnyRef
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> Argonaut
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> B1
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> Function1
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> GET
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> HttpService
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> LinkrService
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> Ok
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> PersonCodecJson
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> Root
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> Serialization
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> ToJsonIdentity
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> _1
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> _2
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> apply
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> argonaut
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> asInstanceOf
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> asJson
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> child
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> dsl
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> get
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> http4s
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> isEmpty
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> isInstanceOf
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> jsonEncoder
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> org
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> p
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> package
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> parent
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> read
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> scala
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> unapply
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> unary_!
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> unchecked
+C:\WORK\linkr\server\src\main\scala\Main.scala -> <init>
+C:\WORK\linkr\server\src\main\scala\Main.scala -> BlazeBuilder
+C:\WORK\linkr\server\src\main\scala\Main.scala -> LinkrService
+C:\WORK\linkr\server\src\main\scala\Main.scala -> List
+C:\WORK\linkr\server\src\main\scala\Main.scala -> Main
+C:\WORK\linkr\server\src\main\scala\Main.scala -> Predef
+C:\WORK\linkr\server\src\main\scala\Main.scala -> Server
+C:\WORK\linkr\server\src\main\scala\Main.scala -> ServerApp
+C:\WORK\linkr\server\src\main\scala\Main.scala -> String
+C:\WORK\linkr\server\src\main\scala\Main.scala -> Task
+C:\WORK\linkr\server\src\main\scala\Main.scala -> bindHttp
+C:\WORK\linkr\server\src\main\scala\Main.scala -> blaze
+C:\WORK\linkr\server\src\main\scala\Main.scala -> concurrent
+C:\WORK\linkr\server\src\main\scala\Main.scala -> http4s
+C:\WORK\linkr\server\src\main\scala\Main.scala -> mountService
+C:\WORK\linkr\server\src\main\scala\Main.scala -> org
+C:\WORK\linkr\server\src\main\scala\Main.scala -> package
+C:\WORK\linkr\server\src\main\scala\Main.scala -> read
+C:\WORK\linkr\server\src\main\scala\Main.scala -> scala
+C:\WORK\linkr\server\src\main\scala\Main.scala -> scalaz
+C:\WORK\linkr\server\src\main\scala\Main.scala -> server
+C:\WORK\linkr\server\src\main\scala\Main.scala -> start
+C:\WORK\linkr\server\src\main\scala\Model.scala -> &&
+C:\WORK\linkr\server\src\main\scala\Model.scala -> <init>
+C:\WORK\linkr\server\src\main\scala\Model.scala -> ==
+C:\WORK\linkr\server\src\main\scala\Model.scala -> AbstractFunction2
+C:\WORK\linkr\server\src\main\scala\Model.scala -> Int
+C:\WORK\linkr\server\src\main\scala\Model.scala -> None
+C:\WORK\linkr\server\src\main\scala\Model.scala -> Person
+C:\WORK\linkr\server\src\main\scala\Model.scala -> Predef
+C:\WORK\linkr\server\src\main\scala\Model.scala -> Product
+C:\WORK\linkr\server\src\main\scala\Model.scala -> ScalaRunTime
+C:\WORK\linkr\server\src\main\scala\Model.scala -> Serializable
+C:\WORK\linkr\server\src\main\scala\Model.scala -> Statics
+C:\WORK\linkr\server\src\main\scala\Model.scala -> String
+C:\WORK\linkr\server\src\main\scala\Model.scala -> _toString
+C:\WORK\linkr\server\src\main\scala\Model.scala -> age
+C:\WORK\linkr\server\src\main\scala\Model.scala -> anyHash
+C:\WORK\linkr\server\src\main\scala\Model.scala -> asInstanceOf
+C:\WORK\linkr\server\src\main\scala\Model.scala -> eq
+C:\WORK\linkr\server\src\main\scala\Model.scala -> finalizeHash
+C:\WORK\linkr\server\src\main\scala\Model.scala -> isInstanceOf
+C:\WORK\linkr\server\src\main\scala\Model.scala -> mix
+C:\WORK\linkr\server\src\main\scala\Model.scala -> name
+C:\WORK\linkr\server\src\main\scala\Model.scala -> runtime
+C:\WORK\linkr\server\src\main\scala\Model.scala -> scala
+C:\WORK\linkr\server\src\main\scala\Model.scala -> toString
+C:\WORK\linkr\server\src\main\scala\Model.scala -> typedProductIterator
+C:\WORK\linkr\server\src\main\scala\Model.scala -> ||
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> <init>
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> AnyRef
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> Argonaut
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> CodecJson
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> IntDecodeJson
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> IntEncodeJson
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> Person
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> Serialization
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> StringDecodeJson
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> StringEncodeJson
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> argonaut
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> casecodec2
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> scala
+product stamps:
+12 items
+C:\WORK\linkr\server\build\classes\main\Library.class -> lastModified(1482508127226)
+C:\WORK\linkr\server\build\classes\main\LinkrService$$anonfun$1.class -> lastModified(1482508127317)
+C:\WORK\linkr\server\build\classes\main\LinkrService$.class -> lastModified(1482508127279)
+C:\WORK\linkr\server\build\classes\main\LinkrService.class -> lastModified(1482508127251)
+C:\WORK\linkr\server\build\classes\main\Main$.class -> lastModified(1482508127359)
+C:\WORK\linkr\server\build\classes\main\Main.class -> lastModified(1482508127331)
+C:\WORK\linkr\server\build\classes\main\Person$.class -> lastModified(1482508127397)
+C:\WORK\linkr\server\build\classes\main\Person.class -> lastModified(1482508127382)
+C:\WORK\linkr\server\build\classes\main\Serialization$$anonfun$PersonCodecJson$1.class -> lastModified(1482508127428)
+C:\WORK\linkr\server\build\classes\main\Serialization$$anonfun$PersonCodecJson$2.class -> lastModified(1482508127444)
+C:\WORK\linkr\server\build\classes\main\Serialization$.class -> lastModified(1482508127428)
+C:\WORK\linkr\server\build\classes\main\Serialization.class -> lastModified(1482508127413)
+source stamps:
+5 items
+C:\WORK\linkr\server\src\main\scala\Library.scala -> hash(b683694c30fba6a78fbe0fd58bb18f54d1d6a7bb)
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> hash(8ac8886933a8391d275c79f763ab584dde5f9630)
+C:\WORK\linkr\server\src\main\scala\Main.scala -> hash(a49367e6b7e77d0a1b935834d4895da93705671f)
+C:\WORK\linkr\server\src\main\scala\Model.scala -> hash(d6d43e47e48241960b07e201d757f26b358593b8)
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> hash(f508be238249b91f091e8249ad15fc16389cef73)
+binary stamps:
+10 items
+C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar -> lastModified(1462952297886)
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\io.argonaut\argonaut_2.11\6.2-RC2\ea3815b484531b2bfcde4ea154f7f7ad69a28151\argonaut_2.11-6.2-RC2.jar -> lastModified(1482508116406)
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-argonaut_2.11\0.15.0a\1e4607b6999faa3c0953293fd3221b30d555863b\http4s-argonaut_2.11-0.15.0a.jar -> lastModified(1482508113345)
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-blaze-server_2.11\0.15.0a\386dd19bebfcd33614fd4eedbc5207f00dc7ba1b\http4s-blaze-server_2.11-0.15.0a.jar -> lastModified(1482496968856)
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-core_2.11\0.15.0a\3788936d8cd77c7e338b20f84127b139e7d7d3c1\http4s-core_2.11-0.15.0a.jar -> lastModified(1482496970103)
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-dsl_2.11\0.15.0a\4479ad97a8127eac83fea2a8eae6397251861b27\http4s-dsl_2.11-0.15.0a.jar -> lastModified(1482496968518)
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-server_2.11\0.15.0a\4a963f223a7b51f24b9ceec43cddab7bedf3cb41\http4s-server_2.11-0.15.0a.jar -> lastModified(1482496973540)
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.8\ddd5a8bced249bedd86fb4578a39b9fb71480573\scala-library-2.11.8.jar -> lastModified(1469989061316)
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scalaz\scalaz-concurrent_2.11\7.2.7\abaea3aa04f11301f63099d96cf47f91ec229ed4\scalaz-concurrent_2.11-7.2.7.jar -> lastModified(1482496984932)
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scalaz\scalaz-core_2.11\7.2.7\ebf85118d0bf4ce18acebf1d8475ee7deb7f19f1\scalaz-core_2.11-7.2.7.jar -> lastModified(1482496978344)
+class names:
+10 items
+C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar -> java.lang.Object
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\io.argonaut\argonaut_2.11\6.2-RC2\ea3815b484531b2bfcde4ea154f7f7ad69a28151\argonaut_2.11-6.2-RC2.jar -> argonaut.CodecJson
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-argonaut_2.11\0.15.0a\1e4607b6999faa3c0953293fd3221b30d555863b\http4s-argonaut_2.11-0.15.0a.jar -> org.http4s.argonaut.package$
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-blaze-server_2.11\0.15.0a\386dd19bebfcd33614fd4eedbc5207f00dc7ba1b\http4s-blaze-server_2.11-0.15.0a.jar -> org.http4s.server.blaze.BlazeBuilder
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-core_2.11\0.15.0a\3788936d8cd77c7e338b20f84127b139e7d7d3c1\http4s-core_2.11-0.15.0a.jar -> org.http4s.Method
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-dsl_2.11\0.15.0a\4479ad97a8127eac83fea2a8eae6397251861b27\http4s-dsl_2.11-0.15.0a.jar -> org.http4s.dsl.impl.EntityResponseGenerator
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.http4s\http4s-server_2.11\0.15.0a\4a963f223a7b51f24b9ceec43cddab7bedf3cb41\http4s-server_2.11-0.15.0a.jar -> org.http4s.server.ServerApp
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.8\ddd5a8bced249bedd86fb4578a39b9fb71480573\scala-library-2.11.8.jar -> scala.Predef$
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scalaz\scalaz-concurrent_2.11\7.2.7\abaea3aa04f11301f63099d96cf47f91ec229ed4\scalaz-concurrent_2.11-7.2.7.jar -> scalaz.concurrent.Task$
+C:\Users\lehel\.gradle\caches\modules-2\files-2.1\org.scalaz\scalaz-core_2.11\7.2.7\ebf85118d0bf4ce18acebf1d8475ee7deb7f19f1\scalaz-core_2.11-7.2.7.jar -> scalaz.Kleisli
+internal apis:
+5 items
+C:\WORK\linkr\server\src\main\scala\Library.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAR3NulAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLDRgQ50AAZub3RpZnlzcQB+AAyYaECTdAAEd2FpdHNxAH4ADGtvRUt0AA0kYXNJbnN0YW5jZU9mc3EAfgAMHJ2pZ3QABmVxdWFsc3NxAH4ADH69PVl0AAxhc0luc3RhbmNlT2ZzcQB+AAwRn+kudAAMc3luY2hyb25pemVkc3EAfgAMFMTabXQADSRpc0luc3RhbmNlT2ZzcQB+AAxu+XSBdAARc29tZUxpYnJhcnlNZXRob2RzcQB+AAySDFaXdAAJbm90aWZ5QWxsc3EAfgAM/6DfvHQAB0xpYnJhcnlzcQB+AAyMwZYzdAAMaXNJbnN0YW5jZU9mc3EAfgAMnRGi+HQABjxpbml0PnNxAH4ADDa5WV90AAI9PXNxAH4ADCNTzs50AAVjbG9uZXNxAH4ADF5S+490AAh0b1N0cmluZ3NxAH4ADBud4Yt0AAIhPXNxAH4ADCU6z/J0AAhnZXRDbGFzc3NxAH4ADG3L9D10AAJuZXNxAH4ADH/mYRZ0AAJlcXNxAH4ADDKihit0AAIjI3NxAH4ADKpdR+N0AAhmaW5hbGl6ZXNxAH4ADGCjjop0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AIXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBaAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGFzcQB+AFoBdXEAfgA+AAAAAHBzcQB+AFoBdXEAfgA+AAAAAHBzcQB+AFoBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBgdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBgc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB5dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB6c3EAfgBtdAADQW55c3EAfgBxc3EAfgB0dXEAfgB3AAAAAnNxAH4AeXQABXNjYWxhcQB+AIBwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFZLF6sgnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ACdDOlxXT1JLXGxpbmtyXHNlcnZlclxidWlsZFxjbGFzc2VzXG1haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS2g2lMMPump4++D9WLsY9U0danuw==
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAv8wC3AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCNxiMt0AAZub3RpZnlzcQB+AAxVThN7dAAEcmVhZHNxAH4ADPT/B4h0AAR3YWl0c3EAfgAMuHViSXQADSRhc0luc3RhbmNlT2ZzcQB+AAxRE9qpdAAGZXF1YWxzc3EAfgAMvNpDj3QADGFzSW5zdGFuY2VPZnNxAH4ADPTWaSR0AAxzeW5jaHJvbml6ZWRzcQB+AAyEurRhdAAMTGlua3JTZXJ2aWNlc3EAfgAM2JvxpXQADSRpc0luc3RhbmNlT2ZzcQB+AAxgFSuGdAAJbm90aWZ5QWxsc3EAfgAMO9ZU8nQADGlzSW5zdGFuY2VPZnNxAH4ADMIailN0AAI9PXNxAH4ADJ3gPLJ0AAVjbG9uZXNxAH4ADK+vlf50AAFwc3EAfgAM2Js/M3QACHRvU3RyaW5nc3EAfgAM3M5pAnQAAiE9c3EAfgAMcmX6qHQACGdldENsYXNzc3EAfgAM2oEk5nQAAm5lc3EAfgAMmoeH1XQAAmVxc3EAfgAM8HbQwHQAAiMjc3EAfgAMm75CenQACGZpbmFsaXplc3EAfgAMXRuem3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAddXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AW3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWgBwc3EAfgBfc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AY3NxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAHNxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAHNxAH4AWgBwc3EAfgBfdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBidAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB/dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCAc3EAfgBzdAADQW55c3EAfgB3c3EAfgB6dXEAfgB9AAAAAnNxAH4Af3QABXNjYWxhcQB+AIZ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWSxerIJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAnQzpcV09SS1xsaW5rclxzZXJ2ZXJcYnVpbGRcY2xhc3Nlc1xtYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUisiIaTOoOR0nXHn3Y6tYTd5fljA=
+C:\WORK\linkr\server\src\main\scala\Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDNb2IiAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPbjxQZ0AAZub3RpZnlzcQB+AAxOTUcbdAAEd2FpdHNxAH4ADGBKIyZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMGljf/nQABnNlcnZlcnNxAH4ADKIC6/d0AAZlcXVhbHNzcQB+AAyLdy0IdAAMYXNJbnN0YW5jZU9mc3EAfgAMSCbSKHQADHN5bmNocm9uaXplZHNxAH4ADBL6zad0AA0kaXNJbnN0YW5jZU9mc3EAfgAMpgxvunQABG1haW5zcQB+AAxdKuzzdAAJbm90aWZ5QWxsc3EAfgAMqIdyWXQADGlzSW5zdGFuY2VPZnNxAH4ADPF4MIx0AAhzaHV0ZG93bnNxAH4ADJq1HFJ0AA9yZXF1ZXN0U2h1dGRvd25zcQB+AAxFQDFhdAACPT1zcQB+AAwx2KWWdAAFY2xvbmVzcQB+AAzAkaphdAAETWFpbnNxAH4ADCnaold0AAh0b1N0cmluZ3NxAH4ADCjdrE10AAIhPXNxAH4ADPaO9rp0AAhnZXRDbGFzc3NxAH4ADNNLRrB0AAJuZXNxAH4ADP/Rprx0AAJlcXNxAH4ADHWHvIJ0AAIjI3NxAH4ADAzrfp90AAhmaW5hbGl6ZXNxAH4ADNTwSkd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4ALXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AXgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBlc3EAfgBeAXVxAH4AQgAAAABwc3EAfgBeAXVxAH4AQgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ASHEAfgBRdXEAfgBSAAAAAHNxAH4AVARxAH4AH3VxAH4AVgAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBkdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AG94cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFl0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHZbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGRzcQB+AHV0AAVBcnJheXEAfgB7dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHV0AAZTdHJpbmdzcQB+AHlzcQB+AHx1cQB+AH8AAAADc3EAfgCBdAAEamF2YXNxAH4AgXQABGxhbmdxAH4AhnBzcQB+AF4BdXEAfgCaAAAAA3NxAH4AdXQACVNlcnZlckFwcHNxAH4AeXNxAH4AfHVxAH4AfwAAAARzcQB+AIF0AANvcmdzcQB+AIF0AAZodHRwNHNzcQB+AIF0AAZzZXJ2ZXJxAH4AhnNxAH4AdXQABk9iamVjdHEAfgCec3EAfgB1dAADQW55cQB+AHtwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFZLF6sgnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ACdDOlxXT1JLXGxpbmtyXHNlcnZlclxidWlsZFxjbGFzc2VzXG1haW50AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSkk2fmt+d9ChuTWDTUiV2pNwVnHw==
+C:\WORK\linkr\server\src\main\scala\Model.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAQ38NZAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAH3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCdZKmB0AAZub3RpZnlzcQB+AAwzafyudAAEbmFtZXNxAH4ADNjWgCp0AAR3YWl0c3EAfgAMfVh2VHQADmNvcHkkZGVmYXVsdCQyc3EAfgAMtEFZcHQADSRhc0luc3RhbmNlT2ZzcQB+AAwidLmddAAMcHJvZHVjdEFyaXR5c3EAfgAM64pHo3QABmVxdWFsc3NxAH4ADO0bWTl0AAxhc0luc3RhbmNlT2ZzcQB+AAwyyvmwdAAMc3luY2hyb25pemVkc3EAfgAMvPIb/XQADSRpc0luc3RhbmNlT2ZzcQB+AAyUsDrfdAAIY2FuRXF1YWxzcQB+AAxhQxUDdAANcHJvZHVjdFByZWZpeHNxAH4ADBgLdqh0AANhZ2VzcQB+AAwUZJTvdAAJbm90aWZ5QWxsc3EAfgAMvoH2KXQADGlzSW5zdGFuY2VPZnNxAH4ADKNyt0d0AAY8aW5pdD5zcQB+AAxFRxbAdAAGUGVyc29uc3EAfgAM2ZAgmHQAAj09c3EAfgAM4rYZDHQABWNsb25lc3EAfgAMyEy1iXQABGNvcHlzcQB+AAwZTB55dAAIdG9TdHJpbmdzcQB+AAyyvcqrdAACIT1zcQB+AAxyYvLjdAAIZ2V0Q2xhc3NzcQB+AAySos1jdAAOY29weSRkZWZhdWx0JDFzcQB+AAwhSWNwdAACbmVzcQB+AAx4A+0qdAACZXFzcQB+AAwCw0W8dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAM9i8sjXQAAiMjc3EAfgAMJJQA1XQACGZpbmFsaXplc3EAfgAMqvgcHnQADnByb2R1Y3RFbGVtZW50c3EAfgAMwqzdEnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AVXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAvdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBteHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBsAHBzcQB+AHFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AVUwACWluaGVyaXRlZHEAfgBVTAAHcGFyZW50c3EAfgBVeHEAfgB1c3EAfgBsAHBzcQB+AHF1cQB+AFAAAAAAc3EAfgBsAHBzcQB+AHF1cQB+AFAAAAAAc3EAfgBsAHBzcQB+AHF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHR0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJJzcQB+AIVxAH4AiHNxAH4AiXNxAH4AjHVxAH4AjwAAAANzcQB+AJF0AARqYXZhc3EAfgCRdAACaW9xAH4AlnNxAH4AhXQAB1Byb2R1Y3RxAH4Ai3NxAH4AhXQABkVxdWFsc3EAfgCLc3EAfgCFdAAGT2JqZWN0c3EAfgCJc3EAfgCMdXEAfgCPAAAAA3NxAH4AkXEAfgCcc3EAfgCRdAAEbGFuZ3EAfgCWc3EAfgCFdAADQW55cQB+AIt1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWSxerIJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAnQzpcV09SS1xsaW5rclxzZXJ2ZXJcYnVpbGRcY2xhc3Nlc1xtYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU1tQ+R+SCQZYLB+IB11fyazWFk7g=
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBy296BAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAABc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwWBNQAHQAD1BlcnNvbkNvZGVjSnNvbnVxAH4ACQAAABRzcQB+AAvDVVoldAAGbm90aWZ5c3EAfgAL7pJY8XQABHdhaXRzcQB+AAtkUL24dAANJGFzSW5zdGFuY2VPZnNxAH4AC/ZsFaV0AAZlcXVhbHNzcQB+AAszv9oRdAAMYXNJbnN0YW5jZU9mc3EAfgALM+g4DXQADHN5bmNocm9uaXplZHNxAH4AC2HVDFp0AA0kaXNJbnN0YW5jZU9mc3EAfgALIVZSDHQADVNlcmlhbGl6YXRpb25zcQB+AAvD0xbmdAAJbm90aWZ5QWxsc3EAfgALULrgfnQADGlzSW5zdGFuY2VPZnNxAH4AC4mNd2F0AAI9PXNxAH4AC0GcRsB0AAVjbG9uZXNxAH4AC0nhg6l0AAh0b1N0cmluZ3NxAH4ACwoSCh90AAIhPXNxAH4AC7Tm/PV0AAhnZXRDbGFzc3NxAH4AC+Aqsml0AAJuZXNxAH4AC5KYNx10AAJlcXNxAH4AC69WbsR0AAIjI3NxAH4ACxqPRAR0AAhmaW5hbGl6ZXNxAH4ACyg3emp0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AH3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFl4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFgAcHNxAH4AXXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGFzcQB+AFgAcHNxAH4AXXVxAH4APAAAAABzcQB+AFgAcHNxAH4AXXVxAH4APAAAAABzcQB+AFgAcHNxAH4AXXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AfXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfnNxAH4AcXQAA0FueXNxAH4AdXNxAH4AeHVxAH4AewAAAAJzcQB+AH10AAVzY2FsYXEAfgCEdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVksXqyCdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAJ0M6XFdPUktcbGlua3Jcc2VydmVyXGJ1aWxkXGNsYXNzZXNcbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPUIviOCSbkfCR6CSa0V/BY4nO9z
+external apis:
+0 items
+source infos:
+5 items
+C:\WORK\linkr\server\src\main\scala\Library.scala -> 
+AAAAAAAAAAA=
+C:\WORK\linkr\server\src\main\scala\LinkrService.scala -> 
+AAAAAAAAAAA=
+C:\WORK\linkr\server\src\main\scala\Main.scala -> 
+AAAAAAAAAAA=
+C:\WORK\linkr\server\src\main\scala\Model.scala -> 
+AAAAAAAAAAA=
+C:\WORK\linkr\server\src\main\scala\Serialization.scala -> 
+AAAAAAAAAAA=
+compilations:
+7 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWSuuHap1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJ0M6XFdPUktcbGlua3Jcc2VydmVyXGJ1aWxkXGNsYXNzZXNcbWFpbnQAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWSuupL91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJ0M6XFdPUktcbGlua3Jcc2VydmVyXGJ1aWxkXGNsYXNzZXNcbWFpbnQAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWSv2k0R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJ0M6XFdPUktcbGlua3Jcc2VydmVyXGJ1aWxkXGNsYXNzZXNcbWFpbnQAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWSwEh1x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJ0M6XFdPUktcbGlua3Jcc2VydmVyXGJ1aWxkXGNsYXNzZXNcbWFpbnQAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWSwRWBZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJ0M6XFdPUktcbGlua3Jcc2VydmVyXGJ1aWxkXGNsYXNzZXNcbWFpbnQAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWSwdSLZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJ0M6XFdPUktcbGlua3Jcc2VydmVyXGJ1aWxkXGNsYXNzZXNcbWFpbnQAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWSxerIJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJ0M6XFdPUktcbGlua3Jcc2VydmVyXGJ1aWxkXGNsYXNzZXNcbWFpbnQAAS8=

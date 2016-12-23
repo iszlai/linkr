@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LibrarySuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-23T14:37:28" hostname="LENO-PC" time="0.038">
+  <properties/>
+  <testcase name="someLibraryMethod is always true" classname="LibrarySuite" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

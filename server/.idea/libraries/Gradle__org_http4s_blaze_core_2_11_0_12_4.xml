@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.http4s:blaze-core_2.11:0.12.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/blaze-core_2.11/0.12.4/bad4182d0842e19a558b38e4b49f7a0a3aaebcc8/blaze-core_2.11-0.12.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4s/blaze-core_2.11/0.12.4/b8ab57602e32b779284973836d3f555a651ddd21/blaze-core_2.11-0.12.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
