@@ -1,14 +1,14 @@
-.gradle
-build/
+server/.gradle
+server/build/
 
 # Ignore Gradle GUI config
-gradle-app.setting
+server/gradle-app.setting
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+server/!gradle-wrapper.jar
 
 # Cache of project
-.gradletasknamecache
+server/.gradletasknamecache
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
