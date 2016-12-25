@@ -1,19 +1,27 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <md-toolbar>
+      <h1 class="md-title">Linkr</h1>
+    </md-toolbar>
+
+    <div class="main-content">
+      <login></login>
+    </div>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
-
-export default {
-  name: 'app',
-  components: {
-    Hello
+  import Login from './components/Login'
+  import VueMaterial from 'vue-material'
+  import Vue from 'vue'
+  export default {
+    name: 'app',
+    components: {
+      Login
+    }
   }
-}
+
+  Vue.use(VueMaterial)
 </script>
 
 <style>
