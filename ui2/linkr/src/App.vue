@@ -2,10 +2,12 @@
   <div id="app">
     <md-toolbar>
       <h1 class="md-title">Linkr</h1>
+       <md-button><router-link to="/login">Login</router-link></md-button>
+       <md-button><router-link to="/content">content</router-link></md-button>
     </md-toolbar>
 
     <div class="main-content">
-      <login></login>
+      <router-view></router-view>
     </div>
   </div>
 </template>
@@ -14,6 +16,7 @@
   import Login from './components/Login'
   import VueMaterial from 'vue-material'
   import Vue from 'vue'
+
   export default {
     name: 'app',
     components: {
@@ -22,6 +25,7 @@
   }
 
   Vue.use(VueMaterial)
+
 </script>
 
 <style>

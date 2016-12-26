@@ -3,11 +3,29 @@
 import Vue from 'vue'
 import App from './App'
 import VueMaterial from 'vue-material'
+import VueRouter from 'vue-router'
+import Login from './components/Login'
+import Hello from './components/Hello'
+import Content from './components/Content'
 /* eslint-disable no-new */
+
+Vue.use(VueMaterial)
+Vue.use(VueRouter)
+
+const routes = [
+  { path: '/login', component: Login },
+  { path: '/', component: Hello },
+  { path: '/content', component: Content }
+]
+
+const router = new VueRouter({
+  routes
+})
+
+// router.start(App, '#app')
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App }
+  components: { App },
+  router
 })
-
-Vue.use(VueMaterial)

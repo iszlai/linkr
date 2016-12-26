@@ -1,5 +1,6 @@
 server/.gradle
-server/build/
+server/build/*
+server/build/classes
 
 # Ignore Gradle GUI config
 server/gradle-app.setting
@@ -13,4 +14,4 @@ server/.gradletasknamecache
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
-server/.idea
+server/.idea/*
