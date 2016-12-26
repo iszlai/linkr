@@ -1,11 +1,11 @@
-import $ from "jquery";
+import $ from 'jquery'
 
-export function LoginService (user, password, success, error) {
-        data = {}
-        data.user = user;
-        data.password = password;
-        $.post('/ap', data).done(success).fail(error)
+export default {
+    submit(user, password, suc, err) {
+        var data = {}
+        data.user = user
+        data.password = password
+        $.post('http://localhost.ms.com:8090/login', data).done(suc).fail(err)
+        $.get('http://localhost.ms.com:8090/echo')
     }
-
-
-
+} 
