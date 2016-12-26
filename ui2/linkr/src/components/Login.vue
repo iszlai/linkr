@@ -22,6 +22,8 @@
 </template>
 
 <script>
+    // import LoginService from './LoginService'
+    import $ from 'jquery'
     export default {
         name: 'Login',
         data() {
@@ -34,7 +36,13 @@
         },
         methods: {
             submit: function () {
-                console.log('Hi' + this.user + this.password)
+                function LoginService(user, password, success, error) {
+                    var data = {}
+                    data.user = user
+                    data.password = password
+                    $.post('/ap', data).done(success).fail(error)
+                }
+                LoginService(this.user, this.password, () => console.log('succes'), () => console.log('fail'))
             }
         }
     }
