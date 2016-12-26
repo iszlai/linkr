@@ -1,24 +1,19 @@
-import org.http4s.server.{Server, ServerApp}
-import org.http4s.server.blaze.BlazeBuilder
-import LinkrService._
-import org.http4s.server.middleware.{CORS, CORSConfig}
+import akka.actor.{ActorSystem, Props}
+import akka.io.IO
+import spray.can.Http
+import akka.pattern.ask
+import akka.util.Timeout
+import scala.concurrent.duration._
 
-import scalaz.concurrent.Task
+object Main extends App {
 
-object Main extends ServerApp {
+  // we need an ActorSystem to host our application in
+  implicit val system = ActorSystem("on-spray-can")
 
-  override def server(args: List[String]): Task[Server] = {
+  // create and start our service actor
+  val service = system.actorOf(Props[LinkrService], "demo-service")
 
-    val config=CORSConfig( anyOrigin=true,
-      allowCredentials=false,
-      maxAge=1200000,
-      allowedMethods = Some(Set("GET","POST"))
-    )
-
-    BlazeBuilder
-      .bindHttp(8090, "localhost.ms.com")
-      .mountService(CORS(read,config), "/")
-      .start
-  }
-
+  implicit val timeout = Timeout(5.seconds)
+  // start a new HTTP server on port 8080 with our service actor as the handler
+  IO(Http) ? Http.Bind(service, interface = "localhost", port = 8080)
 }
