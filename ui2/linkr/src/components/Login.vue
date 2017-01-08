@@ -1,6 +1,6 @@
 <template>
     <div class="login">
-        <md-card md-flex="20">
+        <md-card md-with-hover>
             <md-card-header>
                 <div class="md-title">Login</div>
             </md-card-header>
@@ -23,6 +23,7 @@
 
 <script>
     import LoginService from '../services/LoginService'
+    import router from '../main'
     export default {
         name: 'Login',
         data() {
@@ -36,11 +37,15 @@
         methods: {
             submit: function () {
                 LoginService.submit(this.user, this.password, () => console.log('succes'), () => console.log('fail2'))
-            }
+                router.push('content')
+        }
         }
     }
 </script>
 
 <style scoped>
-
+.login{
+    margin: 40px auto;
+    max-width: 650px;
+}
 </style>

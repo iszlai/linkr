@@ -2,8 +2,13 @@
   <div id="app">
     <md-toolbar>
       <h1 class="md-title">Linkr</h1>
-       <md-button><router-link to="/login">Login</router-link></md-button>
-       <md-button><router-link to="/content">content</router-link></md-button>
+      <md-button>
+        <router-link to="/content">content</router-link>
+      </md-button>
+      <div style="flex: 1" />
+      <md-button id="loginButton" class="md-right">
+        <router-link to="/login">Login</router-link>
+      </md-button>
     </md-toolbar>
 
     <div class="main-content">
@@ -37,4 +42,6 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
 </style>
