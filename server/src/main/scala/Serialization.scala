@@ -1,7 +1,6 @@
-import spray.json.DefaultJsonProtocol
+import argonaut._, Argonaut._
 
-object MyJsonProtocol extends DefaultJsonProtocol {
-  implicit val personFormat = jsonFormat2(Person)
-  implicit val userFormat = jsonFormat2(User)
-
+object Serialization {
+  implicit def PersonCodecJson: CodecJson[Person] =
+    casecodec2(Person.apply,Person.unapply)("name", "age")
 }

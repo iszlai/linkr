@@ -1,19 +1,17 @@
-import akka.actor.{ActorSystem, Props}
-import akka.io.IO
-import spray.can.Http
-import akka.pattern.ask
-import akka.util.Timeout
-import scala.concurrent.duration._
+import org.http4s.server.{Server, ServerApp}
+import org.http4s.server.blaze.BlazeBuilder
+import LinkrService._
 
-object Main extends App {
+import scalaz.concurrent.Task
 
-  // we need an ActorSystem to host our application in
-  implicit val system = ActorSystem("on-spray-can")
+object Main extends ServerApp {
 
-  // create and start our service actor
-  val service = system.actorOf(Props[LinkrService], "demo-service")
+  override def server(args: List[String]): Task[Server] = {
 
-  implicit val timeout = Timeout(5.seconds)
-  // start a new HTTP server on port 8080 with our service actor as the handler
-  IO(Http) ? Http.Bind(service, interface = "localhost", port = 8090)
+    BlazeBuilder
+      .bindHttp(8080, "localhost")
+      .mountService(read, "/")
+      .start
+  }
+
 }
