@@ -1,7 +1,11 @@
 server/.gradle
+server/.gradle/*
+server/.gradle/*.*
 server/.idea
 server/build/*
+server/build/*.*
 server/build/classes/*
+server/build/classes/*.*
 
 # Ignore Gradle GUI config
 server/gradle-app.setting
@@ -16,9 +20,5 @@ server/.gradletasknamecache
 # gradle/wrapper/gradle-wrapper.properties
 
 server/.idea/*
-server/.idea/modules.xml
-server/.idea/compiler.xml
-server/.idea/misc.xml
-server/.idea/modules/server.iml
+server/.idea/*.*
 *.iml
-server/.idea/scala_compiler.xml
