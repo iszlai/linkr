@@ -16,3 +16,4 @@ server/.gradletasknamecache
 # gradle/wrapper/gradle-wrapper.properties
 
 server/.idea/*
+server/.idea/modules.xml
