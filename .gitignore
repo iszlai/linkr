@@ -1,7 +1,7 @@
 server/.gradle
 server/.idea
 server/build/*
-server/build/classes
+server/build/classes/*
 
 # Ignore Gradle GUI config
 server/gradle-app.setting
