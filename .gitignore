@@ -1,4 +1,5 @@
 server/.gradle
+server/.idea
 server/build/*
 server/build/classes
 
