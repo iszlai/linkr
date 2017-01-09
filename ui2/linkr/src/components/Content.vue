@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-        <md-table-card>
+        <md-table-card  md-with-hover class="table">
             <md-toolbar>
                
                 <md-button class="md-icon-button">
@@ -76,5 +76,7 @@
 </script>
 
 <style scoped>
-
+  .table{
+        margin: 40px;
+  }
 </style>
