@@ -17,6 +17,7 @@ repositories {
     // Use 'jcenter' for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+    mavenCentral()
 }
 
 // In this section you declare the dependencies for your production and test code
@@ -29,6 +30,11 @@ dependencies {
     compile 'org.http4s:http4s-argonaut_2.11:0.15.0a'
     compile 'org.slf4j:slf4j-simple:1.6.2'
     compile 'io.argonaut:argonaut_2.11:6.1'
+
+    //Database
+    // https://mvnrepository.com/artifact/org.tpolecat/doobie-core_2.11
+    compile group: 'org.tpolecat', name: 'doobie-core_2.11', version: '0.3.0a'
+    compile 'org.tpolecat:doobie-contrib-h2_2.11:0.3.0a'
 
     // We use Scalatest for testing our library
     testCompile 'junit:junit:4.12'
