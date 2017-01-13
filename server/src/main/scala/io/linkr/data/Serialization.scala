@@ -1,3 +1,5 @@
+package io.linkr.data
+
 import argonaut.Argonaut._
 import argonaut._
 

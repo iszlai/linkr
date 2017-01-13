@@ -1,4 +1,8 @@
-import Database.{getAllUsers, init}
+package io.linkr
+
+import io.linkr.data.UserDTO
+import io.linkr.util.AuthProvider
+import io.linkr.data.Database._
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.{BeforeAndAfter, FunSuite}

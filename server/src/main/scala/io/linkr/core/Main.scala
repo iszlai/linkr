@@ -1,4 +1,6 @@
-import LinkrService._
+package io.linkr.core
+
+import io.linkr.service.LinkrService.read
 import org.http4s.server.blaze.BlazeBuilder
 import org.http4s.server.middleware.{CORS, CORSConfig}
 import org.http4s.server.{Server, ServerApp}

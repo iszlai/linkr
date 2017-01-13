@@ -1,7 +1,11 @@
-import Database._
+package io.linkr.util
+
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm
+import io.linkr.data.Database.{findUser, insertUser}
+import io.linkr.data.UserDTO
 import org.mindrot.jbcrypt.BCrypt
+
 import scala.util.Try
 
 object AuthProvider {

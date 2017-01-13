@@ -1,7 +1,10 @@
+package io.linkr.data
+
 import java.util.Date
+
 import doobie.imports._
+
 import scalaz.Scalaz._
-import scalaz._
 import scalaz.concurrent.Task
 
 object Database {
