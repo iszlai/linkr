@@ -1,16 +1,8 @@
-import org.mindrot.jbcrypt.BCrypt
-
-import scalaz.{Kleisli, Validation}
 import Database._
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm
-
+import org.mindrot.jbcrypt.BCrypt
 import scala.util.Try
-
-/**
-  * Created by lehel on 1/13/2017.
-  */
-
 
 object AuthProvider {
 
@@ -26,15 +18,6 @@ object AuthProvider {
     }
   }
 
-  def verifyToken(token: String): Option[String] = {
-    val verifier = JWT.require(Algorithm.HMAC256("secret")).withIssuer("linkr").build()
-    Try {
-      verifier.verify(token)
-    }.map(_.getClaim("username").asString())
-      .toOption
-  }
-
-
   def checkCredentials(userDTO: UserDTO): Option[Boolean] = {
     findUser(userDTO.name).map(u => BCrypt.checkpw(userDTO.password, u.password))
   }
@@ -46,5 +29,13 @@ object AuthProvider {
         .withIssuer("linkr")
         .sign(Algorithm.HMAC256("secret"))
     }.toOption
+  }
+
+  def verifyToken(token: String): Option[String] = {
+    val verifier = JWT.require(Algorithm.HMAC256("secret")).withIssuer("linkr").build()
+    Try {
+      verifier.verify(token)
+    }.map(_.getClaim("username").asString())
+      .toOption
   }
 }

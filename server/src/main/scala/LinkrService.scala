@@ -1,12 +1,10 @@
-import Serialization._
-import argonaut._
-import Argonaut._
-import org.http4s.{Cookie, HttpService}
-import org.http4s.dsl._
-import org.http4s.argonaut._
-import org.http4s.server.middleware.CORSConfig
-import org.http4s._
 import Database._
+import Serialization._
+import argonaut.Argonaut._
+import argonaut._
+import org.http4s.argonaut._
+import org.http4s.dsl._
+import org.http4s.{Cookie, HttpService}
 
 object LinkrService {
 
