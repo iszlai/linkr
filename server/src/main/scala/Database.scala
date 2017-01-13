@@ -30,10 +30,10 @@ object Database {
   (drop.run *> create.run ).transact(xa).unsafePerformSync
 
 
-  def findArticle(id: String): Task[Option[User]] =
-    sql"select username, password from users where username = $id".query[User].option.transact(xa)
+  def findUser(id: String): Option[User] =
+    sql"select username, password from users where username = $id".query[User].option.transact(xa).unsafePerformSync
 
-  def insertUser(user:User)=
+  def insertUser(user:UserDTO)=
     sql"insert into users (username,password, registeredAt) values (${user.name}, ${user.password},${new Date})".update.run.transact(xa).unsafePerformSync
 
   def getAllUsers():List[UserDTO]={

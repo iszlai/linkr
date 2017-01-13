@@ -18,7 +18,7 @@ object LinkrService {
 
     case req@GET -> Root / "echo2" =>
       Ok {
-        insertUser(User("lehle", "dsda", "dsa"))
+        insertUser(UserDTO("lehel", "root"))
         "ok"
       }
 
