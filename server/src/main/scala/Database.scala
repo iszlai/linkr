@@ -1,5 +1,9 @@
+import java.util.Date
+
 import doobie.imports._
-import scalaz._, Scalaz._
+
+import scalaz._
+import Scalaz._
 import scalaz.concurrent.Task
 
 object Database {
@@ -15,10 +19,10 @@ object Database {
 
   val create: Update0 =
     sql"""
-    CREATE users person (
+    CREATE TABLE users (
       username VARCHAR NOT NULL UNIQUE,
       password VARCHAR NOT NULL ,
-      salt VARCHAR NOT NULL
+      registeredAt TIMESTAMP NOT NULL
     )
   """.update
 
@@ -30,9 +34,9 @@ object Database {
     sql"select username, password from users where username = $id".query[User].option.transact(xa)
 
   def insertUser(user:User)=
-    sql"insert into users (username,password, salt) values (${user.name}, ${user.password},${user.salt})".update.run.transact(xa).unsafePerformSync
+    sql"insert into users (username,password, registeredAt) values (${user.name}, ${user.password},${new Date})".update.run.transact(xa).unsafePerformSync
 
-  def getAllUsers():List[User]={
-    sql"select username,password,salt from users".query[User].list.transact(xa).unsafePerformSync
+  def getAllUsers():List[UserDTO]={
+    sql"select username,password from users".query[UserDTO].list.transact(xa).unsafePerformSync
   }
 }

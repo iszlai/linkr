@@ -9,21 +9,16 @@ import org.http4s._
 import Database._
 
 object LinkrService {
-  val p = Person("Jane", 20)
+
   val read = HttpService {
-    case req@GET -> Root / "echo" =>
+    case req@GET -> Root / "listUsers" =>
       Ok {
-        val cookies = req.headers.get(headers.Cookie)
-        p.asJson
-        getAllUsers().mkString(",")
-
-
+        getAllUsers().asJson
       }
 
     case req@GET -> Root / "echo2" =>
       Ok {
-
-          insertUser(User("lehle","dsda","dsa"))
+        insertUser(User("lehle", "dsda", "dsa"))
         "ok"
       }
 

@@ -7,6 +7,7 @@
 
 import org.scalatest.FunSuite
 import org.junit.runner.RunWith
+import org.mindrot.jbcrypt.BCrypt
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
@@ -14,5 +15,11 @@ class LibrarySuite extends FunSuite {
   test("someLibraryMethod is always true") {
     def library = new Library()
     assert(library.someLibraryMethod)
+  }
+
+  test("Bcrypt functionality") {
+      val hased=BCrypt.hashpw("foo",BCrypt.gensalt())
+    println(hased)
+    assert(BCrypt.checkpw("foo","$2a$10$raxDrCYD4iAebH3d1l28t.ICD7w2gYdDw939ss62c.dlW7GlhPGqK"))
   }
 }

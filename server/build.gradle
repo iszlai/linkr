@@ -30,6 +30,7 @@ dependencies {
     compile 'org.http4s:http4s-argonaut_2.11:0.15.0a'
     compile 'org.slf4j:slf4j-simple:1.6.2'
     compile 'io.argonaut:argonaut_2.11:6.1'
+    compile 'org.mindrot:jbcrypt:0.3m'
 
     //Database
     // https://mvnrepository.com/artifact/org.tpolecat/doobie-core_2.11
