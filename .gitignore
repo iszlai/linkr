@@ -22,3 +22,5 @@ server/.gradletasknamecache
 server/.idea/*
 server/.idea/*.*
 *.iml
+server/.idea/modules/server_main.iml
+server/.idea/modules/server_test.iml
