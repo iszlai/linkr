@@ -16,7 +16,6 @@ class AuthProviderSuite extends FunSuite with BeforeAndAfter {
     init()
   }
   test("User creation") {
-    assert(false)
     assert(getAllUsers().size == 0)
     AuthProvider.createUser(user)
     assert(getAllUsers().size == 1)
