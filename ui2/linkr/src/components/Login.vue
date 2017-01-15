@@ -37,8 +37,7 @@
         },
         methods: {
             submit: function () {
-                LoginService.submit(this.user, this.password, () => console.log('succes'), () => console.log('fail2'))
-                router.push('content')
+                LoginService.submit(this.user, this.password, () => router.push('content'), () => console.log('fail2'))
         }
         }
     }
