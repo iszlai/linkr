@@ -14,6 +14,18 @@ export default {
         }).done(suc).fail(err)
 
         // $.post('http://localhost.ms.com:8090/login', JSON.stringify(data), null, 'json').done(suc).fail(err)
-        $.get('http://localhost:8090/echo')
+    },
+
+    register(user, password, suc, err) {
+        var data = {}
+        data.name = user
+        data.password = password
+
+        $.ajax({
+            type: 'POST',
+            url: 'http://localhost:8090/register',
+            data: JSON.stringify(data),
+            contentType: 'application/json'
+        }).done(suc).fail(err)
     }
 } 

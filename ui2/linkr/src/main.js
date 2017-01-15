@@ -7,6 +7,7 @@ import VueRouter from 'vue-router'
 import Login from './components/Login'
 import Hello from './components/Hello'
 import Content from './components/Content'
+import Register from './components/Register'
 /* eslint-disable no-new */
 
 Vue.use(VueMaterial)
@@ -14,6 +15,7 @@ Vue.use(VueRouter)
 
 const routes = [
   { path: '/login', component: Login },
+  { path: '/register', component: Register },
   { path: '/', component: Hello },
   { path: '/content', component: Content }
 ]

@@ -2,7 +2,7 @@
     <div class="login">
         <md-card md-with-hover>
             <md-card-header>
-                <div class="md-title">Login</div>
+                <div class="md-title">Create a user</div>
             </md-card-header>
             <md-card-content>
                 <form>
@@ -14,9 +14,12 @@
                         <label>Password</label>
                         <md-input type="password" v-model="password"></md-input>
                     </md-input-container>
-                    <md-button v-on:click="submit" class="md-raised md-primary">Login</md-button>
+                      <md-input-container md-has-password>
+                        <label>Verify Password</label>
+                        <md-input type="password" v-model="password"></md-input>
+                    </md-input-container>
+                    <md-button v-on:click="submit" class="md-raised md-primary">Register</md-button>
                 </form>
-                <router-link to="/register">Want to join? Sign up</router-link>
             </md-card-content>
         </md-card>
     </div>
@@ -26,7 +29,7 @@
     import LoginService from '../services/LoginService'
     import router from '../main'
     export default {
-        name: 'Login',
+        name: 'Register',
         data() {
             return {
 
@@ -37,8 +40,8 @@
         },
         methods: {
             submit: function () {
-                LoginService.submit(this.user, this.password, () => console.log('succes'), () => console.log('fail2'))
-                router.push('content')
+                LoginService.register(this.user, this.password, () => console.log('succes'), () => console.log('fail2'))
+                router.push('login')
         }
         }
     }
