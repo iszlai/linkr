@@ -6,7 +6,8 @@ server/build/*
 server/build/*.*
 server/build/classes/*
 server/build/classes/*.*
-
+server/target
+target
 # Ignore Gradle GUI config
 server/gradle-app.setting
 
