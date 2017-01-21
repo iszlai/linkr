@@ -7,7 +7,7 @@ import doobie.imports._
 import scalaz.Scalaz._
 import scalaz.concurrent.Task
 
-trait PersistanceOperations {
+trait PersistenceOperations {
 
   def init(): Unit
 
@@ -16,9 +16,11 @@ trait PersistanceOperations {
   def insertUser(user: UserDTO): Unit
 
   def getAllUsers(): List[UserDTO]
+
+  def deleteAllUsers(): Unit
 }
 
-object Database extends PersistanceOperations{
+object Database extends PersistenceOperations {
 
   val xa = DriverManagerTransactor[Task](
     "org.h2.Driver", "jdbc:h2:mem:todo;DB_CLOSE_DELAY=-1", "sa", ""
@@ -39,7 +41,7 @@ object Database extends PersistanceOperations{
   """.update
 
 
-  def init() = (drop.run *> create.run).transact(xa).unsafePerformSync
+  def init() = create.run.transact(xa).unsafePerformSync
 
 
   def findUser(id: String): Option[UserDTO] =
@@ -52,5 +54,8 @@ object Database extends PersistanceOperations{
     sql"select username,password from users".query[UserDTO].list.transact(xa).unsafePerformSync
   }
 
+  override def deleteAllUsers():Unit = {
+    sql"delete from users".update.run.transact(xa).unsafePerformSync
+  }
   // init()
 }

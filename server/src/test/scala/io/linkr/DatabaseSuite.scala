@@ -19,9 +19,8 @@ class DatabaseSuite extends FunSuite with BeforeAndAfter {
   val user = UserDTO("user1", "password")
   val userWrongPassword = UserDTO("user1", "password1")
 
-  before {
-    init()
-  }
+  init()
+
 
   test("database creation") {
     assert(getAllUsers().size == 0)
@@ -36,6 +35,10 @@ class DatabaseSuite extends FunSuite with BeforeAndAfter {
     assert(findUser(user.name) == None)
     insertUser(user)
     assert(findUser(user.name).isDefined)
+  }
+
+  after{
+    deleteAllUsers()
   }
 
 }

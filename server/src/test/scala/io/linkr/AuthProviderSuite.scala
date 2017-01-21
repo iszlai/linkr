@@ -1,8 +1,8 @@
 package io.linkr
 
+import io.linkr.data.Database._
 import io.linkr.data.UserDTO
 import io.linkr.util.AuthProvider
-import io.linkr.data.Database._
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.{BeforeAndAfter, FunSuite}
@@ -12,9 +12,8 @@ class AuthProviderSuite extends FunSuite with BeforeAndAfter {
   val user = UserDTO("user1", "password")
   val userWrongPassword = UserDTO("user1", "password1")
 
-  before {
-    init()
-  }
+//  init()
+
   test("User creation") {
     assert(getAllUsers().size == 0)
     AuthProvider.createUser(user)
@@ -61,6 +60,9 @@ class AuthProviderSuite extends FunSuite with BeforeAndAfter {
     assert(AuthProvider.verifyToken(badToken) == None)
   }
 
+  after {
+    deleteAllUsers()
+  }
 }
 
 
