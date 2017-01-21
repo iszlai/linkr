@@ -7,7 +7,18 @@ import doobie.imports._
 import scalaz.Scalaz._
 import scalaz.concurrent.Task
 
-object Database {
+trait PersistanceOperations {
+
+  def init(): Unit
+
+  def findUser(id: String): Option[UserDTO]
+
+  def insertUser(user: UserDTO): Unit
+
+  def getAllUsers(): List[UserDTO]
+}
+
+object Database extends PersistanceOperations{
 
   val xa = DriverManagerTransactor[Task](
     "org.h2.Driver", "jdbc:h2:mem:todo;DB_CLOSE_DELAY=-1", "sa", ""
@@ -41,5 +52,5 @@ object Database {
     sql"select username,password from users".query[UserDTO].list.transact(xa).unsafePerformSync
   }
 
-  init()
+  // init()
 }
