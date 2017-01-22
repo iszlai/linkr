@@ -33,11 +33,12 @@ object Database extends PersistenceOperations {
 
   val create: Update0 =
     sql"""
+    DROP TABLE IF EXISTS users;
     CREATE TABLE users (
       username VARCHAR NOT NULL UNIQUE,
       password VARCHAR NOT NULL ,
       registeredAt TIMESTAMP NOT NULL
-    )
+    );
   """.update
 
 

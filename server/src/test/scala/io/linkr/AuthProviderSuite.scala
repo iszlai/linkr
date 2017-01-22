@@ -12,7 +12,7 @@ class AuthProviderSuite extends FunSuite with BeforeAndAfter {
   val user = UserDTO("user1", "password")
   val userWrongPassword = UserDTO("user1", "password1")
 
-//  init()
+  init()
 
   test("User creation") {
     assert(getAllUsers().size == 0)
