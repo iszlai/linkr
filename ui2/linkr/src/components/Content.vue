@@ -1,5 +1,15 @@
 <template>
     <div class="content">
+<!--
+    <form class="md-card table" novalidate @submit.stop.prevent="submit">
+    <md-input-container md-inline class="table">
+    <label>Inline field</label>
+    <md-input></md-input>
+   
+  </md-input-container>
+ <md-button class="md-raised md-primary">Primary</md-button>
+ </form>
+-->
         <md-table-card  md-with-hover class="table">
             <md-toolbar>
                
