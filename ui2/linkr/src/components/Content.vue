@@ -80,7 +80,7 @@ import LinksService from '../services/LinksService'
         methods: {
             submit: function () {
                 console.log('submit' + this.link)
-                LinksService.submit('lehel',this.link, () => {
+                LinksService.submit(window.user,this.link, () => {
                       this.link = ''
                       this.getData()   
                 } ,
@@ -99,7 +99,7 @@ import LinksService from '../services/LinksService'
             var self = this
             console.log('mounted')
             console.log(self.links)
-             LinksService.getLinksForUser('lehel',(d) => { 
+             LinksService.getLinksForUser(window.user,(d) => { 
                  var newLinks = JSON.parse(d)
                  console.log(self.links)
                  console.log(newLinks)
