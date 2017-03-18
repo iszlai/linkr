@@ -1,15 +1,21 @@
 <template>
     <div class="content">
-<!--
-    <form class="md-card table" novalidate @submit.stop.prevent="submit">
-    <md-input-container md-inline class="table">
-    <label>Inline field</label>
-    <md-input></md-input>
-   
-  </md-input-container>
- <md-button class="md-raised md-primary">Primary</md-button>
- </form>
--->
+
+        <md-card md-with-hover>
+            <md-card-header>
+                <div class="md-title">Add link</div>
+            </md-card-header>
+            <md-card-content>
+                <form>
+                    <md-input-container md-inline>
+                        <label>http://example.com/article</label>
+                        <md-input v-model="link"></md-input>
+                    </md-input-container>
+                    <md-button v-on:click="submit" class="md-raised md-primary">Login</md-button>
+                </form>
+            </md-card-content>
+        </md-card>
+
         <md-table-card  md-with-hover class="table">
             <md-toolbar>
                
@@ -50,7 +56,8 @@
     export default {
         name: 'Content',
         data() {
-            return {
+            return {  
+                link: '',
                 links: [
                     {
                         dessert: 'Google.com',
@@ -78,7 +85,16 @@
         },
         methods: {
             submit: function () {
-                console.log('submit')
+                console.log('submit' + this.link)
+            },
+             onSort: function () {
+                console.log('onSort')
+            },
+             onSelect: function () {
+                console.log('onSelect')
+            },
+             onPagination: function () {
+                console.log('onPagination')
             }
         }
     }
