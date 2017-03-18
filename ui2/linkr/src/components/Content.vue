@@ -1,17 +1,15 @@
 <template>
     <div class="content">
 
-        <md-card md-with-hover>
-            <md-card-header>
-                <div class="md-title">Add link</div>
-            </md-card-header>
+        <md-card md-with-hover class="table">
+         
             <md-card-content>
-                <form>
-                    <md-input-container md-inline>
+                <form >
+                    <md-input-container md-inline class="addLink">
                         <label>http://example.com/article</label>
                         <md-input v-model="link"></md-input>
                     </md-input-container>
-                    <md-button v-on:click="submit" class="md-raised md-primary">Login</md-button>
+                    <md-button v-on:click="submit" class="md-raised md-primary">Submit</md-button>
                 </form>
             </md-card-content>
         </md-card>
@@ -28,20 +26,28 @@
                 </md-button>
             </md-toolbar>
 
-            <md-table md-sort="dessert" md-sort-type="desc" @select="onSelect" @sort="onSort">
+            <md-table md-sort="url" md-sort-type="desc" @select="onSelect" @sort="onSort">
                 <md-table-header>
                     <md-table-row>
-                        <md-table-head md-sort-by="dessert">Title</md-table-head>
-                        <md-table-head md-sort-by="calories" md-numeric md-tooltip="Is this searchable by other users">Visible</md-table-head>
+                        <md-table-head md-sort-by="url">Title</md-table-head>
+                        <md-table-head md-sort-by="title" md-numeric md-tooltip="Is this searchable by other users">Visible</md-table-head>
                     </md-table-row>
                 </md-table-header>
 
                 <md-table-body>
                     <md-table-row v-for="(row, rowIndex) in links" :key="rowIndex" :md-item="row" md-auto-select md-selection>
-                        <md-table-cell v-for="(column, columnIndex) in row" :key="columnIndex" :md-numeric="columnIndex !== 'dessert' && columnIndex !== 'comment'"
-                            v-if="columnIndex !== 'type'">
+                       <!-- <md-table-cell v-for="(column, columnIndex) in row" :key="columnIndex" :md-numeric="columnIndex !== 'url' && columnIndex !== 'comment'"
+                            v-if="columnIndex !== 'type' && columnIndex !=='id'">
                             {{ column }}
                         </md-table-cell>
+                  -->
+                  <md-table-cell>
+                  {{row.url}}
+                  </md-table-cell>
+                  <md-table-cell>
+                   {{row.title}}
+                  </md-table-cell>
+                
                     </md-table-row>
                 </md-table-body>
             </md-table>
@@ -53,32 +59,20 @@
 </template>
 
 <script>
+import LinksService from '../services/LinksService'
     export default {
         name: 'Content',
-        data() {
+
+        mounted: function() {
+            this.getData()
+        },
+        data: function() {
             return {  
                 link: '',
                 links: [
                     {
-                        dessert: 'Google.com',
-                        calories: 'true'
-    
-                    },
-                    {
-                        dessert: 'amazon.com',
-                        calories: 'true'
-                    },
-                    {
-                        dessert: 'reddit.com',
-                        calories: 'false'
-                    },
-                    {
-                        dessert: 'index.hu',
-                        calories: 'false'
-                    },
-                    {
-                        dessert: 'port.hu',
-                        calories: 'true'
+                        url: 'Google.com',
+                        title: 'true'
                     }
                 ]
             }
@@ -86,6 +80,11 @@
         methods: {
             submit: function () {
                 console.log('submit' + this.link)
+                LinksService.submit('lehel',this.link, () => {
+                      this.link = ''
+                      this.getData()   
+                } ,
+                () => console.log('submit failed'))
             },
              onSort: function () {
                 console.log('onSort')
@@ -95,7 +94,19 @@
             },
              onPagination: function () {
                 console.log('onPagination')
+            },
+            getData: function() {
+            var self = this
+            console.log('mounted')
+            console.log(self.links)
+             LinksService.getLinksForUser('lehel',(d) => { 
+                 var newLinks = JSON.parse(d)
+                 console.log(self.links)
+                 console.log(newLinks)
+                 self.links = newLinks 
+                 },() => console.log('faill2')) 
             }
+
         }
     }
 
@@ -104,5 +115,11 @@
 <style scoped>
   .table{
         margin: 40px;
+  }
+
+  .addLink{
+        float:left;
+        display:inline; 
+        width: 75%;
   }
 </style>
