@@ -14,9 +14,9 @@
                         <label>Password</label>
                         <md-input type="password" v-model="password"></md-input>
                     </md-input-container>
-                      <md-input-container md-has-password>
+                      <md-input-container md-has-password v-bind:class="{ 'md-input-invalid': isMatch() }">
                         <label>Verify Password</label>
-                        <md-input type="password" v-model="password"></md-input>
+                        <md-input type="password" v-model="repeatedPassword"></md-input>
                     </md-input-container>
                     <md-button v-on:click="submit" class="md-raised md-primary">Register</md-button>
                 </form>
@@ -27,7 +27,7 @@
 
 <script>
     import LoginService from '../services/LoginService'
-    import router from '../main'
+   // import router from '../main'
     export default {
         name: 'Register',
         data() {
@@ -35,14 +35,20 @@
 
                 user: '',
                 password: '',
+                repeatedPassword: '',
                 msg: 'Welcome to Your Vue.js App'
             }
         },
         methods: {
             submit: function () {
-                LoginService.register(this.user, this.password, () => console.log('succes'), () => console.log('fail2'))
-                router.push('login')
-        }
+                if (this.password === this.repeatedPassword) {
+                    LoginService.register(this.user, this.password, () => console.log('succes'), () => console.log('fail2'))
+                    this.$router.push('login')
+                }
+        },
+            isMatch: function () {
+                return !(this.password === this.repeatedPassword)
+            }
         }
     }
 </script>

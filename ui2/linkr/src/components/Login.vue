@@ -10,7 +10,7 @@
                         <label>Username</label>
                         <md-input v-model="user"></md-input>
                     </md-input-container>
-                    <md-input-container md-has-password>
+                    <md-input-container md-has-password v-on:keyup.enter="submit">
                         <label>Password</label>
                         <md-input type="password" v-model="password"></md-input>
                     </md-input-container>
@@ -24,7 +24,7 @@
 
 <script>
     import LoginService from '../services/LoginService'
-    import router from '../main'
+   // import router from '../main'
     export default {
         name: 'Login',
         data() {
@@ -39,7 +39,7 @@
             submit: function () {
                 LoginService.submit(this.user, this.password, () => {
                     window.user = this.user
-                    router.push('content')
+                    this.$router.push('content')
                     },
                      () => console.log('fail2'))
         }
